@@ -15,12 +15,12 @@ This webpage highlights my education, skills, projects, and contact information 
 ---
 
 ## 🔹 Sections Included
-- About Me
+- Career Objective
 - Education
 - Skills
 - Projects
 - Experience
-- Contact
+- Online Presence
 
 ---
 
