@@ -28,9 +28,3 @@ This webpage highlights my education, skills, projects, and contact information 
 - HTML5  
 - CSS3 (Flexbox, Grid, Hover Effects)
 
----
-
-## 🔹 How to Use
-1. Clone or download this repository  
-   ```bash
-   git clone https://github.com/yourusername/resume-webpage.git
