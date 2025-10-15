@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- <script src="https://kit.fontawesome.com/22cde3fdcb.js" crossorigin="anonymous"></script> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <i class="fa-brands fa-dev"></i> -->
+    <link rel="icon" href="icon.svg">
+    <title>Dev Sheta — Resume</title>
+    <style>
+        :root {
+            --bg: #f9fafb;
+            --card: #ffffff;
+            --accent: rgb(0, 140, 255);
+            --muted: #475569;
+            --text: #1e293b
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 36px auto;
+            padding: 28px;
+            background: var(--card);
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        header {
+            display: flex;
+            gap: 20px;
+            align-items: center
+        }
+
+        .avatar {
+            width: 88px;
+            height: 88px;
+            border-radius: 12px;
+            background: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #fff;
+            font-size: 28px
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 26px
+        }
+
+        .meta {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .row {
+            display: flex;
+            gap: 28px;
+            margin-top: 22px
+        }
+
+        .col {
+            flex: 1
+        }
+
+        .card {
+            background: #f8fafc;
+            padding: 18px;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0
+        }
+
+        h2 {
+            margin: 0 0 8px 0;
+            font-size: 16px;
+            color: var(--accent)
+        }
+
+        ul {
+            margin: 8px 0 0 18px;
+            padding: 0
+        }
+
+        li {
+            margin-bottom: 6px
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px
+        }
+
+        .skill {
+            background: #e2e8f0;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 13px;
+            color: var(--text)
+        }
+
+        .contact a {
+            color: var(--accent);
+            text-decoration: none
+        }
+
+        .small {
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        @media (max-width:720px) {
+            .row {
+                flex-direction: column
+            }
+
+            .avatar {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="avatar">DS</div>
+            <div>
+                <h1>Dev Sheta</h1>
+                <div class="meta">Computer Engineering Student — PDEU (2023–2027)</div>
+                <div class="meta small contact">devsheta114@gmail.com • +91 9099430287 • <a
+                        href="https://www.linkedin.com/in/dev-sheta-418a0738a/" target="_blank">LinkedIn</a></div>
+            </div>
+        </header>
+
+        <section class="row" style="margin-top:20px;">
+            <div class="col card">
+                <h2>Career Objective</h2>
+                <p class="small">Seeking an opportunity to apply my computer engineering skills to develop solutions
+                    that help people and communities, contribute positively to society, and build a career focused on
+                    creating meaningful, long-term impact in the world.</p>
+
+                <h2 style="margin-top:14px">Education</h2>
+                <ul class="small">
+                    <li><strong>B.Tech, Computer Engineering</strong> — Pandit Deendayal Energy University, Gandhinagar
+                        (2023–2027)</li>
+                    <li><strong>Higher Secondary (12th)</strong> — Aksharjyoti High School, Surat (2022-2023)</li>
+                    <li><strong>Secondary (10th)</strong> — Shree Sharda Vidhyamandir, Surat (2020-2021)</li>
+                </ul>
+
+                <h2 style="margin-top:14px">Skills</h2>
+                <div class="skills">
+                    <div class="skill">Java</div>
+                    <div class="skill">Python</div>
+                    <div class="skill">MySQL</div>
+                    <div class="skill">HTML & CSS</div>
+                    <div class="skill">Git</div>
+                    <div class="skill">Communication</div>
+                    <div class="skill">Teamwork</div>
+                    <div class="skill">Data Analysis</div>
+                </div>
+
+                <h2 style="margin-top:14px">Projects</h2>
+                <ul class="small">
+                    <li><strong>Fashion E-Commerce Platform</strong> — Developed and managed a MySQL database to
+                        efficiently handle products, sizes, brands, and customer orders, ensuring accurate inventory
+                        tracking and smooth order processing.</li>
+                    <li><strong>GDP Data Extraction and Processing</strong> —
+                        GDP Data Extraction and Processing
+                        GDP Data Extraction and Processing
+                        This project extracts, cleans, and organizes GDP data from raw sources such as tables or
+                        spreadsheets, making it ready for analysis.</li>
+                </ul>
+            </div>
+
+            <div class="col card">
+                <h2>Achievements</h2>
+                <ul class="small">
+                    <li>SQL Skill Test Certification – Successfully completed a professional SQL skill assessment,
+                        demonstrating strong knowledge of database querying and data management.</li>
+                    <li>Coursera Certification, Introduction to AI (2025) — Completed comprehensive coursework in
+                        Artificial Intelligence fundamentals and applications.</li>
+                </ul>
+
+                <h2 style="margin-top:14px">Experience</h2>
+                <ul class="small">
+                    <li><strong>Intern — Tech Startup</strong> (Summer 2024): Contributed to backend development by
+                        writing efficient SQL queries, testing new features, and supporting overall system
+                        functionality.</li>
+                    <li><strong>Volunteer — Campus Events</strong>: Coordinated and assisted in organizing campus
+                        events, ensuring smooth execution and engaging participant experiences.
+                    </li>
+                </ul>
+
+                <h2 style="margin-top:14px">Hobbies & Interests</h2>
+                <p class="small">I enjoy staying updated with the latest technology trends by reading tech blogs and
+                    articles. Outside of work, I play cricket, which helps me develop teamwork and strategic thinking
+                    skills. I also love exploring new places, as it allows me to gain new experiences, broaden my
+                    perspective, and appreciate different cultures.</p>
+
+                <h2 style="margin-top:14px">Online Presence</h2>
+                <p class="small">
+                    LinkedIn: <a href="https://www.linkedin.com/in/dev-sheta-418a0738a/"
+                        target="_blank">linkedin.com/in/devsheta</a><br>
+                    Instagram: <a href="#" target="_blank">instagram.com/techwithdev</a><br>
+                    GitHub: <a href="https://github.com/DevSheta07" target="_blank">github.com/in/devsheta07</a>
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
